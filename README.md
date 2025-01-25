@@ -5,6 +5,9 @@
 ```
 library(Hmsc)
 
+# source code
+source("code/linpred_new_trait.R")
+
 # run an example model
 hM <- Hmsc(
     Y = TD$Y,
